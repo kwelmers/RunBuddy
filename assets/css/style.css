@@ -13,15 +13,27 @@ body {
       font-size: 36px;
       color: #fce138;
       margin: 0;
+      display: inline;
   }
   header a {
       color: #fce138;
   }
+
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+
+  header nav ul li {
+      display: inline;
+  }
+
   header nav ul li a {
       margin: 0 30px;
       font-weight: lighter;
       font-size: 22px;
   }
+
   header h1 {
       font-weight: bold;
       font-size: 36px;
@@ -29,6 +41,7 @@ body {
       margin: 0;
       display: inline;
   }
+
   * {
       margin: 0;
       padding: 0;
@@ -127,6 +140,16 @@ body {
 
 .intro {
     text-align: center;
+}
+
+.intro h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px
+    border-bottom: 3px solid;
+    border-color: #fce138;
+    display: inline-block;
 }
 
 .intro p {
