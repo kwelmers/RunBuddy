@@ -46,6 +46,7 @@ body {
       margin: 0;
       padding: 0;
   }
+
   footer {
       background: #fce138;
       width: 100%;
@@ -53,7 +54,7 @@ body {
   }
   footer h2 {
       display: inline;
-      color: #024e76
+      color: #024e76;
       font-size: 30px;
       margin: 0;
   }
@@ -65,11 +66,13 @@ body {
   footer a {
       color: #024e76;
   }
+
   * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
   }
+  
   section {
       padding: 60px;
   }
